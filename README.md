@@ -10,6 +10,9 @@ Opencart function to quickly extract language data
 
 # 使用方法
 
+1. 覆盖 system 对应文件
+2. 更新 modification 缓存文件
+
 在 tpl 文件里使用
 ```html
 <!-- 在 common/header.tpl 提取 language/*/common/header.php 的数据 -->
