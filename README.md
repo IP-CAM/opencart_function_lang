@@ -28,7 +28,7 @@ Used in php files
 $this->error['error_password'] = __('error_password');
 
 // Extract the data of language/*/common/login.php at common/forgotten.tpl
-$this->error['error_login'] = lang('common/login.error_login');
+$this->error['error_login'] = __('common/login.error_login');
 ```
 
 # 简体中文
@@ -58,5 +58,5 @@ $this->error['error_login'] = lang('common/login.error_login');
 $this->error['error_password'] = __('error_password');
 
 // 在 common/forgotten.tpl 提取 language/*/common/login.php 的数据
-$this->error['error_login'] = lang('common/login.error_login');
+$this->error['error_login'] = __('common/login.error_login');
 ```
