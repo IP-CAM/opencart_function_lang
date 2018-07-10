@@ -11,10 +11,10 @@ Opencart function to quickly extract language data
 
 在 tpl 文件里使用
 ```php
-<!-- 在 common/header.tpl 提取 language/*/common/header.php 的数据 -->
+// 在 common/header.tpl 提取 language/*/common/header.php 的数据
 <div><?php __('heading_title'); ?></div>
 
-<!-- // 在 common/header.tpl 提取 language/*/sale/order.php 的数据 -->
+// 在 common/header.tpl 提取 language/*/sale/order.php 的数据
 <div><?php lang('sale/order.heading_title'); ?></div>
 ```
 
