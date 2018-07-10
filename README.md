@@ -11,7 +11,7 @@ Opencart function to quickly extract language data
 # 使用方法
 
 在 tpl 文件里使用
-```tpl
+```html
 <!-- 在 common/header.tpl 提取 language/*/common/header.php 的数据 -->
 <div><?php __('heading_title'); ?></div>
 
