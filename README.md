@@ -19,7 +19,7 @@ Used in tpl files
 <div><?php __('heading_title'); ?></div>
 
 <!-- Extract the data of language/*/sale/order.php in common/header.tpl -->
-<div><?php lang('sale/order.heading_title'); ?></div>
+<div><?php __('sale/order.heading_title'); ?></div>
 Used in php files
 ```
 
@@ -49,7 +49,7 @@ $this->error['error_login'] = __('common/login.error_login');
 <div><?php __('heading_title'); ?></div>
 
 <!-- 在 common/header.tpl 提取 language/*/sale/order.php 的数据 -->
-<div><?php lang('sale/order.heading_title'); ?></div>
+<div><?php __('sale/order.heading_title'); ?></div>
 ```
 
 在 php 文件里使用
