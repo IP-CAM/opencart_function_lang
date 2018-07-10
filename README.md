@@ -10,19 +10,19 @@ Opencart function to quickly extract language data
 # 使用方法
 
 在 tpl 文件里使用
-···php
-// 在 common/header.tpl 提取 language/*/common/header.php 的数据
+```tpl
+<!-- 在 common/header.tpl 提取 language/*/common/header.php 的数据 -->
 <div><?php __('heading_title'); ?></div>
 
-// 在 common/header.tpl 提取 language/*/sale/order.php 的数据
+<!-- // 在 common/header.tpl 提取 language/*/sale/order.php 的数据 -->
 <div><?php lang('sale/order.heading_title'); ?></div>
-···
+```
 
 在 php 文件里使用
-···php
+```php
 // 在 common/forgotten.tpl 提取 language/*/common/forgotten.php 的数据
 $this->error['error_password'] = __('error_password');
 
 // 在 common/forgotten.tpl 提取 language/*/common/login.php 的数据
 $this->error['error_login'] = lang('common/login.error_login');
-···
+```
