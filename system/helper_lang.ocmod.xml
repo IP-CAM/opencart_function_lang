@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<id>Modification Function Lang</id>
+	<name>Modification Function Lang</name>
+	<code>modification_function_lang</code>
+	<version>1.0</version>
+	<vqmver>2.5.1</vqmver>
+	<author>SHI</author>
+	<link></link>
+
+	<file path="admin/controller/startup/startup.php">
+		<operation error="skip">
+		<search position="after"><![CDATA[$this->registry->set('language', $language);]]></search>
+		<add position="after"><![CDATA[
+		// Language code
+		$GLOBALS['language_code'] = $this->config->get('config_admin_language');]]></add>
+		</operation>
+	</file>
+
+	<file path="catalog/controller/startup/startup.php">
+		<operation error="skip">
+		<search position="after"><![CDATA[$this->registry->set('language', $language);]]></search>
+		<add position="after"><![CDATA[
+		// Language code
+		$GLOBALS['language_code'] = $code;]]></add>
+		</operation>
+	</file>
+
+</modification>
