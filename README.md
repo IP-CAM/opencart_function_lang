@@ -8,7 +8,7 @@ Opencart function to quickly extract language data
 
 使用这个函数（lang() __()），可以省去这一步骤（先在 controller 赋值 $data）。
 
-# 使用方法
+## 使用方法
 
 1. 覆盖 system 对应文件
 2. 更新 modification 缓存文件
