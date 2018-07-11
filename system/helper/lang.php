@@ -35,12 +35,12 @@ if (! function_exists('lang')) {
         if (! isset($GLOBALS['language_class'])) {
             $GLOBALS['language_class'] = new Language($GLOBALS['language_code']);
             $GLOBALS['language_class']->load($GLOBALS['language_code']);
-            $GLOBALS['language_filename'] = array();
+            $GLOBALS['language_filename'] = $GLOBALS['language_code'];
         }
 
-        if (! in_array($filename, $GLOBALS['language_filename'])) {
+        if ($GLOBALS['language_filename'] != $filename) {
             $GLOBALS['language_class']->load($filename);
-            $GLOBALS['language_filename'][] = $filename;
+            $GLOBALS['language_filename'] = $filename;
         }
         
         // If equal, indicating missing, return the default value
