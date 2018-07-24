@@ -4,7 +4,7 @@
 >Opencart 函数，可以快速提取语言数据
 
 >Readme in 
-[Chinese 中文](https://github.com/fzzkyd/opencart_function_lang/README_ZH.md)
+[Chinese 中文](https://github.com/fzzkyd/opencart_function_lang/blob/master/README_ZH.md)
 
 This is the Opencart system language functions `Lang()` and `__()`, which makes it easy to extract language data, and the two functions are equivalent.
 
