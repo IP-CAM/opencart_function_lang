@@ -1,4 +1,4 @@
-# Opencart Function Lang() & __()
+# Opencart Function lang() & __()
 >Opencart function to quickly extract language data
 
 >Opencart 函数，可以快速提取语言数据
@@ -6,7 +6,7 @@
 >Readme in 
 [Chinese 中文](https://github.com/fzzkyd/opencart_function_lang/blob/master/README_ZH.md)
 
-This is the Opencart system language functions `Lang()` and `__()`, which makes it easy to extract language data, and the two functions are equivalent.
+This is the Opencart system language functions `lang()` and `__()`, which makes it easy to extract language data, and the two functions are equivalent.
 
 When developing the opencart(2.3.2) tpl file, if you need to use the data in the `language` directory, you need to first write `$this->config->get('key')` in `controller` to assign the data to `$data` before it can be used in the `tpl` file.
 

@@ -1,6 +1,6 @@
-# Opencart Function Lang() & __()
+# Opencart Function lang() & __()
 
-这是 Opencart 系统语言函数 `Lang()` 以及 `__()`，可以方便提取语言数据，两个函数等价。
+这是 Opencart 系统语言函数 `lang()` 以及 `__()`，可以方便提取语言数据，两个函数等价。
 
 在开发 opencart(2.3.2) tpl 文件时，如果需要使用 `language` 目录里的数据，需要先在 `controller` 编写 `$this->config->get('key')` 将数据赋值给 `$data`，然后才能在 `tpl` 文件里使用。
 
